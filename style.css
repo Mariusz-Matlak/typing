@@ -10,6 +10,6 @@ div {
     transition: .3s;
 }
 
-.cursor .active {
+.cursor.active {
     opacity: 1;
 }

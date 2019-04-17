@@ -1,5 +1,5 @@
 const spanText = document.querySelector('.text');
-const spanCursor = document.querySelector('.span');
+const spanCursor = document.querySelector('.cursor');
 const text = ['tekst1', 'tekst2', 'tekst3'];
 
 let activeLetter = -20;
@@ -22,3 +22,9 @@ const addLetter = () => {
     setTimeout(addLetter, 100);
 }
 addLetter();
+
+const cursorAnimation = () => {
+    spanCursor.classList.toggle('active');
+}
+
+setInterval(cursorAnimation, 400);
