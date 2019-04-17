@@ -1,0 +1,15 @@
+div {
+    max-width: 75%;
+    margin: 20px auto;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.cursor {
+    opacity: 0;
+    transition: .3s;
+}
+
+.cursor .active {
+    opacity: 1;
+}
